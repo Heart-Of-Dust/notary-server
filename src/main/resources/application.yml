@@ -1,0 +1,15 @@
+server:
+  port: 8443
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/notary
+    username: postgres
+    password: postgres
+  data:
+    redis:
+      port: 6379
+      host: localhost
+
+logging:
+  level:
+    root: INFO
